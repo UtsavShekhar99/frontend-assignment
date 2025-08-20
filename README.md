@@ -42,20 +42,18 @@ A reusable data table with:
 ## 📂 Project Structure
 
 frontend-assignment/
-├── src/
-│   ├── components/
-│   │   ├── DataTable/
-│   │   │   ├── DataTable.tsx
-│   │   │   └── DataTable.stories.tsx
-│   │   ├── InputField/
-│   │   │   ├── InputField.tsx
-│   │   │   └── InputField.stories.tsx
-│   ├── App.tsx
-│   ├── index.css
-│   └── main.tsx
-├── public/
-├── .storybook/
-├── node_modules/
-├── package.json
-└── README.md
-
+ ├── src/
+ │   ├── components/
+ │   │   ├── InputField/
+ │   │   │   ├── InputField.tsx
+ │   │   │   └── InputField.stories.tsx
+ │   │   ├── DataTable/
+ │   │   │   ├── DataTable.tsx
+ │   │   │   └── DataTable.stories.tsx
+ │   ├── App.tsx
+ │   └── main.tsx
+ ├── .gitignore
+ ├── package.json
+ ├── tsconfig.json
+ ├── vite.config.ts
+ └── README.md
