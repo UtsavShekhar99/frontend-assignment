@@ -104,7 +104,6 @@ This generates a static Storybook in the `storybook-static` folder, ready for de
 ## 🔹 Storybook Preview  
 
 [**View Storybook**](https://68a590482b617b1d3d3b688c-cytwgwqbya.chromatic.com/?path=/story/components-datatable--default)
----
 The components are also deployed online via Chromatic:  
 ---
 
