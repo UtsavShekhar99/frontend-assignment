@@ -41,25 +41,22 @@ A reusable data table with:
 
 ## 📂 Project Structure
 
-frontend-assignment/
-## 📂 Project Structure
-
 ```plaintext
 📂 frontend-assignment
 ├── 📂 src
 │   ├── 📂 components
 │   │   ├── 📂 DataTable
-│   │   │   ├── DataTable.tsx          # DataTable component
-│   │   │   └── DataTable.stories.tsx  # Storybook stories for DataTable
+│   │   │   ├── DataTable.tsx
+│   │   │   └── DataTable.stories.tsx
 │   │   ├── 📂 InputField
-│   │   │   ├── InputField.tsx         # InputField component
-│   │   │   └── InputField.stories.tsx # Storybook stories for InputField
-│   ├── App.tsx                        # Main demo page
-│   ├── index.css                      # Global styles
-│   └── main.tsx                       # React entry point
+│   │   │   ├── InputField.tsx
+│   │   │   └── InputField.stories.tsx
+│   ├── App.tsx
+│   ├── index.css
+│   └── main.tsx
 │
-├── 📂 public                          # Static assets
-├── 📂 .storybook                      # Storybook configuration
-├── 📂 node_modules                    # Dependencies
-├── package.json                       # Project metadata & dependencies
-└── README.md                          # Project documentation
+├── 📂 public
+├── 📂 .storybook
+├── 📂 node_modules
+├── package.json
+└── README.md
