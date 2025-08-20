@@ -41,3 +41,21 @@ A reusable data table with:
 
 ## 📂 Project Structure
 
+frontend-assignment/
+├── src/
+│   ├── components/
+│   │   ├── DataTable/
+│   │   │   ├── DataTable.tsx
+│   │   │   └── DataTable.stories.tsx
+│   │   ├── InputField/
+│   │   │   ├── InputField.tsx
+│   │   │   └── InputField.stories.tsx
+│   ├── App.tsx
+│   ├── index.css
+│   └── main.tsx
+├── public/
+├── .storybook/
+├── node_modules/
+├── package.json
+└── README.md
+
