@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { ChevronUpIcon, ChevronDownIcon } from "@heroicons/react/24/solid";
 
 export interface Column<T> {
   key: string;
@@ -84,26 +85,44 @@ export function DataTable<T extends { id: number | string }>({
       <table role="table" className="min-w-full bg-white">
         <thead className="bg-gray-100 text-gray-700">
           <tr role="row">
-            {selectable && <th role="columnheader" className="p-3 text-left">Select</th>}
+            {selectable && (
+              <th role="columnheader" className="p-3 text-left">
+                Select
+              </th>
+            )}
             {columns.map((col) => (
               <th
-  key={col.key}
-  role="columnheader"
-  aria-sort={
-    sortKey === col.key
-      ? sortOrder === "asc"
-        ? "ascending"
-        : "descending"
-      : "none"
-  }
-  onClick={() => handleSort(col)}
-  className={`p-3 text-left font-semibold cursor-pointer ${
-    col.sortable ? "hover:text-blue-600" : ""
-  }`}
->
-  {col.title}
-</th>
-
+                key={col.key}
+                role="columnheader"
+                aria-sort={
+                  sortKey === col.key
+                    ? sortOrder === "asc"
+                      ? "ascending"
+                      : "descending"
+                    : "none"
+                }
+                onClick={() => handleSort(col)}
+                className={`p-3 text-left font-semibold cursor-pointer ${
+                  col.sortable ? "hover:text-blue-600" : ""
+                }`}
+              >
+                <span className="inline-flex items-center gap-1">
+                  {col.title}
+                  {col.sortable && (
+                    <>
+                      {sortKey === col.key ? (
+                        sortOrder === "asc" ? (
+                          <ChevronUpIcon className="w-4 h-4 text-gray-600" />
+                        ) : (
+                          <ChevronDownIcon className="w-4 h-4 text-gray-600" />
+                        )
+                      ) : (
+                        <ChevronUpIcon className="w-4 h-4 text-gray-300" />
+                      )}
+                    </>
+                  )}
+                </span>
+              </th>
             ))}
           </tr>
         </thead>
