@@ -56,6 +56,18 @@ A reusable data table with:
 │   └── main.tsx
 │
 ├── 📂 public
+│   ├── 📂 Screenshots-and-GIFs
+│   │   ├── 📂 GIFs
+│   │   │   ├── clear button.gif
+│   │   │   ├── diabled input.gif
+│   │   │   ├── password toggle.gif
+│   │   │   ├── selectable data table.gif
+│   │   │   ├── sorting by name and age.gif
+│   │   │   └── ToggleDarkMode.gif
+│   │   └── 📂 Screenshots
+│   │       ├── DataTable.png
+│   │       ├── Input Field.png
+│   │       └── loading and no data fields.png
 ├── 📂 .storybook
 ├── 📂 node_modules
 ├── package.json
