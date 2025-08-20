@@ -73,6 +73,40 @@ A reusable data table with:
 ├── package.json
 └── README.md
 ```
+---
+## 📸 Screenshots & GIFs
+
+### GIFs
+
+- **Clear Button:**  
+  ![Clear Button](public/Screenshots-and-GIFs/GIFs/clear%20button.gif)
+
+- **Disabled Input:**  
+  ![Disabled Input](public/Screenshots-and-GIFs/GIFs/diabled%20input.gif)
+
+- **Password Toggle:**  
+  ![Password Toggle](public/Screenshots-and-GIFs/GIFs/password%20toggle.gif)
+
+- **Selectable Data Table:**  
+  ![Selectable Data Table](public/Screenshots-and-GIFs/GIFs/selectable%20data%20table.gif)
+
+- **Sorting by Name and Age:**  
+  ![Sorting by Name and Age](public/Screenshots-and-GIFs/GIFs/sorting%20by%20name%20and%20age.gif)
+
+- **Toggle Dark Mode:**  
+  ![Toggle Dark Mode](public/Screenshots-and-GIFs/GIFs/ToggleDarkMode.gif)
+
+### Screenshots
+
+- **Data Table:**  
+  ![Data Table](public/Screenshots-and-GIFs/Screenshots/DataTable.png)
+
+- **Input Field:**  
+  ![Input Field](public/Screenshots-and-GIFs/Screenshots/Input%20Field.png)
+
+- **Loading and No Data Fields:**  
+  ![Loading and No Data Fields](public/Screenshots-and-GIFs/Screenshots/loading%20and%20no%20data%20fields.png)
+---
 ## ⚡ Setup Instructions
 
 ### Clone the repository
