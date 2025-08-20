@@ -60,7 +60,7 @@ A reusable data table with:
 ├── 📂 node_modules
 ├── package.json
 └── README.md
-
+```
 ⚡ Setup Instructions
 
 Clone the repo
