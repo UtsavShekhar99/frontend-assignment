@@ -60,3 +60,54 @@ A reusable data table with:
 ├── 📂 node_modules
 ├── package.json
 └── README.md
+
+⚡ Setup Instructions
+
+Clone the repo
+
+git clone https://github.com/<your-username>/<your-repo>.git
+cd frontend-assignment
+
+
+Install dependencies
+
+npm install
+
+
+Run the frontend app
+
+npm run dev
+
+
+Open http://localhost:5173
+ in your browser.
+
+Run Storybook locally
+
+npm run storybook
+
+
+Open http://localhost:6006
+ to preview the components.
+
+Build Storybook for production (optional)
+
+npm run build-storybook
+
+
+This generates a static Storybook in the storybook-static folder, ready for deployment.
+
+🔹 Storybook Preview
+
+The components are also deployed online via Chromatic:
+View Storybook
+
+📝 Description of My Approach
+
+For this assignment, I focused on building reusable, modular components with TypeScript for type safety and TailwindCSS for consistent styling.
+
+InputField: I implemented multiple states, sizes, and variants, added optional clear and password toggle features, and ensured accessibility with aria-* attributes.
+
+DataTable: I created a table component that supports sorting, single and multiple row selection, loading, and empty states. It is responsive and accessible with proper ARIA roles.
+
+The project structure is designed for scalability, making it easy to add more components in the future. I used Storybook to document and visually test all components, and deployed it via Chromatic for a live preview.
